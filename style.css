@@ -1,0 +1,1697 @@
+body{
+    margin: 0;
+    font-family: 'Commissioner';
+    background-color: rgba(248, 248, 248, 0.856);
+}
+
+
+@media(min-width: 320px) and (max-width: 480px){
+
+    #top{
+        background-image: url(images/image-hero-mobile.jpg);
+        height: 35vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    #header{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 2rem;
+        align-items: center;
+    }
+
+    .show-desktop{
+        display: none;
+    }
+
+    .show-mobile{
+        width: 1.7rem;
+        height: 1.3rem;
+    }
+
+
+    #box{
+        background-color:white;
+        width: 90%;
+        text-align: center;
+        padding-bottom: 2rem;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        margin: 2.5rem auto 3rem;
+    }
+
+    #container #box .masterkraft{
+        margin-top: -2rem;
+    }
+
+    h1{
+        font-size: 29px;
+        padding: 0 50px;
+    }
+
+    p{
+        font-size: 16px;
+        color: rgb(95, 95, 95);
+        margin-top: -10px;
+        padding: 0 15px;
+        line-height: 32px;
+    }
+
+    #container #box #buttons_1{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        /* margin: 0 auto; */
+    }
+
+    #container #box .btn_1{
+        padding: 5px 3rem;
+        border-radius: 50px;
+        border: 1px solid hsl(176, 50%, 47%);
+        background-color: hsl(176, 50%, 47%);
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 1.1rem;
+        margin: 0 auto;
+        font-weight: 600;
+        width: 80%;
+    }
+
+    #container #box .btn_1:hover{
+        background-color: hsl(177, 44%, 38%);
+    }
+
+    #container #box .bookmark{
+        display: none;  
+    }
+
+    #container #box .book_logo{
+        margin-left: -6rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    #box2{
+        background-color:white;
+        width: 90%;
+        text-align: center;
+        padding: 20px 0 22px 0;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        margin: 0 auto;
+    }
+
+    #figures{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #figures .sup{
+        font-size: 32px;
+        font-weight: 700;
+        color: rgb(36, 36, 36);
+        padding-top: 25px;
+        padding-left: 60px;
+    }
+
+    #figures .sub{
+        padding-left: 25px;
+        font-size: 14px;
+        margin-top: -25px;
+        color: rgb(75, 75, 75);
+        padding-left: 70px;
+    }
+
+    #figures .sub:nth-of-type(2){
+        margin-left: -15px;
+    }
+
+    #figures .figone{
+        padding-right: 60px;
+        padding-top: 20px;
+    }
+
+    #figures .figtwo{
+        border-top: 1px solid rgb(177, 177, 177);
+        border-bottom: 1px solid rgb(177, 177, 177);
+        padding-right: 65px;
+        padding-top: 20px;
+        
+    }
+
+    #figures .figthree{
+        padding-top: 20px;
+        padding-right: 70px;
+    }
+
+    #box2 .square {
+          height: 1.1rem;
+          width: 80%;
+          background-color: rgba(235, 235, 235, 0.959);
+          margin: 0 auto 1rem;
+          border-radius: 50px;
+        
+    }
+    #box2 .square1{
+          height: 1.1rem;
+          width: 80%;
+          background-color:hsl(176, 50%, 47%);
+          border-radius: 50px;
+          
+    }
+
+    #box3{
+        background-color:white;
+        width: 90%;
+        text-align: center;
+        padding: 20px 0 22px 0;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        margin: 3rem auto 2rem;
+    }
+
+    #box3 h3{
+        text-align: left;
+        padding-left: 15px;
+        font-size: 18px;
+    }
+
+    #box3 h2{
+        text-align: left;
+        padding-left: 25px;
+        font-size: 23px;
+    }
+
+    #cont_one{
+        border: 1px solid rgb(184, 184, 184);
+        margin: 20px 20px 5px 20px;
+        border-radius: 5px;
+        padding: 10px 0 0 0;
+    }
+
+    #box3 .about{
+        padding: 0 23px;
+        text-align: justify;
+        font-size: 17px;
+        line-height: 33px;
+        margin: 35px 0;
+    }
+
+    #box3 #one_top{
+        text-align: left;
+        padding: 0 20px;
+    }
+
+    #box3 #one_top p{
+        color: hsl(176, 50%, 47%);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #box3 #one_down{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px 30px 30px ;
+        text-align: left;
+        margin-top: -10px;
+    }
+
+    #box3 .fig{
+        font-size: 40px;
+        font-weight: 700;
+        color: rgb(36, 36, 36);
+        padding-right: 5px;
+        padding-top: 20px;
+        margin-left: -15px;
+    }
+
+    #box3 #one_down sup{
+        font-size: 14px;
+        color: rgb(184, 184, 184);
+        font-weight: 400;
+        margin-left: 5px;
+    }
+
+    #box3 #one_down button{
+        padding: 1px 20px;
+        border-radius: 50px;
+        border: 1px solid hsl(176, 50%, 47%);
+        background-color: hsl(176, 50%, 47%);
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 15px;
+        height: 50px;
+        font-weight: bold;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #box3 #one_down button:hover{
+        background-color: hsl(177, 44%, 38%);
+    }
+
+    #cont_one .content{
+        padding:15px 30px 0 30px;
+        text-align: justify;
+        font-size: 15px;
+        line-height: 33px;
+    }
+
+    #cont_one:nth-of-type(3){
+        border: 1px solid rgb(238, 238, 238);
+    }
+
+
+    .modal {
+        width: 60%;
+        height: 30vh;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 1.73rem 1.3rem 3rem;
+        border-bottom-left-radius: 7rem;
+        backdrop-filter: blur(0.6rem);
+        background-clip: padding-box;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .modal ul{
+        margin: 1.7rem 0 0;
+        padding: 0;
+    }
+
+    .modal li{
+        list-style-type: none;
+        padding-bottom: 2rem;
+        margin-left: 0.8rem;
+    }
+
+    .modal li:hover {
+        transform: translateY(-2px);
+        transition: all .3s ease;
+    }
+
+    .modal a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .modal-hidden{
+        display: none;
+    }
+
+    
+}
+
+@media(min-width: 481px) and (max-width: 640px){
+    #top{
+        background-image: url(images/image-hero-mobile.jpg);
+        height: 35vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    #header{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 2rem;
+        align-items: center;
+    }
+
+    .show-desktop{
+        display: none;
+    }
+
+    .show-mobile{
+        width: 1.7rem;
+        height: 1.3rem;
+    }
+
+
+    #box{
+        background-color:white;
+        width: 90%;
+        text-align: center;
+        padding-bottom: 2rem;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        margin: 2.5rem auto 3rem;
+    }
+
+    #container #box .masterkraft{
+        margin-top: -2rem;
+    }
+
+    h1{
+        font-size: 29px;
+        padding: 0 50px;
+    }
+
+    p{
+        font-size: 16px;
+        color: rgb(95, 95, 95);
+        margin-top: -10px;
+        padding: 0 15px;
+        line-height: 32px;
+    }
+
+    #container #box #buttons_1{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        /* margin: 0 auto; */
+    }
+
+    #container #box .btn_1{
+        padding: 5px 3rem;
+        border-radius: 50px;
+        border: 1px solid hsl(176, 50%, 47%);
+        background-color: hsl(176, 50%, 47%);
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 1.1rem;
+        margin: 0 auto;
+        font-weight: 600;
+        width: 80%;
+    }
+
+    #container #box .btn_1:hover{
+        background-color: hsl(177, 44%, 38%);
+    }
+
+    #container #box .bookmark{
+        display: none;  
+    }
+
+    #container #box .book_logo{
+        margin-left: -9rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    #box2{
+        background-color:white;
+        width: 90%;
+        text-align: center;
+        padding: 20px 0 22px 0;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        margin: 0 auto;
+    }
+
+    #figures{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #figures .sup{
+        font-size: 32px;
+        font-weight: 700;
+        color: rgb(36, 36, 36);
+        padding-top: 25px;
+        padding-left: 60px;
+    }
+
+    #figures .sub{
+        padding-left: 25px;
+        font-size: 14px;
+        margin-top: -25px;
+        color: rgb(75, 75, 75);
+        padding-left: 70px;
+    }
+
+    #figures .sub:nth-of-type(2){
+        margin-left: -15px;
+    }
+
+    #figures .figone{
+        padding-right: 60px;
+        padding-top: 20px;
+    }
+
+    #figures .figtwo{
+        border-top: 1px solid rgb(177, 177, 177);
+        border-bottom: 1px solid rgb(177, 177, 177);
+        padding-right: 65px;
+        padding-top: 20px;
+        
+    }
+
+    #figures .figthree{
+        padding-top: 20px;
+        padding-right: 70px;
+    }
+
+    #box2 .square {
+          height: 1.1rem;
+          width: 80%;
+          background-color: rgba(235, 235, 235, 0.959);
+          margin: 0 auto 1rem;
+          border-radius: 50px;
+        
+    }
+    #box2 .square1{
+          height: 1.1rem;
+          width: 80%;
+          background-color:hsl(176, 50%, 47%);
+          border-radius: 50px;
+          
+    }
+
+    #box3{
+        background-color:white;
+        width: 90%;
+        text-align: center;
+        padding: 20px 0 22px 0;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        margin: 3rem auto 2rem;
+    }
+
+    #box3 h3{
+        text-align: left;
+        padding-left: 15px;
+        font-size: 18px;
+    }
+
+    #box3 h2{
+        text-align: left;
+        padding-left: 25px;
+        font-size: 23px;
+    }
+
+    #cont_one{
+        border: 1px solid rgb(184, 184, 184);
+        margin: 20px 20px 5px 20px;
+        border-radius: 5px;
+        padding: 10px 0 0 0;
+    }
+
+    #box3 .about{
+        padding: 0 23px;
+        text-align: justify;
+        font-size: 17px;
+        line-height: 33px;
+        margin: 35px 0;
+    }
+
+    #box3 #one_top{
+        text-align: left;
+        padding: 0 20px;
+    }
+
+    #box3 #one_top p{
+        color: hsl(176, 50%, 47%);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #box3 #one_down{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px 30px 30px ;
+        text-align: left;
+        margin-top: -10px;
+    }
+
+    #box3 .fig{
+        font-size: 40px;
+        font-weight: 700;
+        color: rgb(36, 36, 36);
+        padding-right: 5px;
+        padding-top: 20px;
+        margin-left: -15px;
+    }
+
+    #box3 #one_down sup{
+        font-size: 14px;
+        color: rgb(184, 184, 184);
+        font-weight: 400;
+        margin-left: 5px;
+    }
+
+    #box3 #one_down button{
+        padding: 1px 20px;
+        border-radius: 50px;
+        border: 1px solid hsl(176, 50%, 47%);
+        background-color: hsl(176, 50%, 47%);
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 15px;
+        height: 50px;
+        font-weight: bold;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #box3 #one_down button:hover{
+        background-color: hsl(177, 44%, 38%);
+    }
+
+    #cont_one .content{
+        padding:15px 30px 0 30px;
+        text-align: justify;
+        font-size: 15px;
+        line-height: 33px;
+    }
+
+    #cont_one:nth-of-type(3){
+        border: 1px solid rgb(238, 238, 238);
+    }
+
+
+    .modal {
+        width: 50%;
+        height: 30vh;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 1.9rem 2.1rem 3rem;
+        border-bottom-left-radius: 7rem;
+        backdrop-filter: blur(0.6rem);
+        background-clip: padding-box;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .modal ul{
+        margin: 1.7rem 0 0;
+        padding: 0;
+    }
+
+    .modal li{
+        list-style-type: none;
+        padding-bottom: 2rem;
+        margin-left: 0.8rem;
+    }
+
+    .modal li:hover {
+        transform: translateY(-2px);
+        transition: all .3s ease;
+    }
+
+    .modal a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    .modal-hidden{
+        display: none;
+    }
+}
+
+@media(min-width: 641px) and (max-width: 960px){
+    #top{
+        background-image: url(images/image-hero-mobile.jpg);
+        height: 35vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    #header{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 2rem;
+        align-items: center;
+    }
+
+    .show-desktop{
+        display: none;
+    }
+
+    .show-mobile{
+        width: 1.7rem;
+        height: 1.3rem;
+    }
+
+
+    #box{
+        background-color:white;
+        width: 90%;
+        text-align: center;
+        padding-bottom: 2rem;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        margin: 2.5rem auto 3rem;
+    }
+
+    #container #box .masterkraft{
+        margin-top: -2rem;
+    }
+
+    h1{
+        font-size: 29px;
+        padding: 0 50px;
+    }
+
+    p{
+        font-size: 16px;
+        color: rgb(95, 95, 95);
+        margin-top: -10px;
+        padding: 0 15px;
+        line-height: 32px;
+    }
+
+    #container #box #buttons_1{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        /* margin: 0 auto; */
+    }
+
+    #container #box .btn_1{
+        padding: 5px 3rem;
+        border-radius: 50px;
+        border: 1px solid hsl(176, 50%, 47%);
+        background-color: hsl(176, 50%, 47%);
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 1.1rem;
+        margin: 0 auto;
+        font-weight: 600;
+        width: 80%;
+    }
+
+    #container #box .btn_1:hover{
+        background-color: hsl(177, 44%, 38%);
+    }
+
+    #container #box .bookmark{
+        display: none;  
+    }
+
+    #container #box .book_logo{
+        margin-left: -10rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    #box2{
+        background-color:white;
+        width: 90%;
+        text-align: center;
+        padding: 20px 0 22px 0;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        margin: 0 auto;
+    }
+
+    #figures{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #figures .sup{
+        font-size: 32px;
+        font-weight: 700;
+        color: rgb(36, 36, 36);
+        padding-top: 25px;
+        padding-left: 60px;
+    }
+
+    #figures .sub{
+        padding-left: 25px;
+        font-size: 14px;
+        margin-top: -25px;
+        color: rgb(75, 75, 75);
+        padding-left: 70px;
+    }
+
+    #figures .sub:nth-of-type(2){
+        margin-left: -15px;
+    }
+
+    #figures .figone{
+        padding-right: 60px;
+        padding-top: 20px;
+    }
+
+    #figures .figtwo{
+        border-top: 1px solid rgb(177, 177, 177);
+        border-bottom: 1px solid rgb(177, 177, 177);
+        padding-right: 65px;
+        padding-top: 20px;
+        
+    }
+
+    #figures .figthree{
+        padding-top: 20px;
+        padding-right: 70px;
+    }
+
+    #box2 .square {
+          height: 1.1rem;
+          width: 80%;
+          background-color: rgba(235, 235, 235, 0.959);
+          margin: 0 auto 1rem;
+          border-radius: 50px;
+        
+    }
+    #box2 .square1{
+          height: 1.1rem;
+          width: 80%;
+          background-color:hsl(176, 50%, 47%);
+          border-radius: 50px;
+          
+    }
+
+    #box3{
+        background-color:white;
+        width: 90%;
+        text-align: center;
+        padding: 20px 0 22px 0;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        margin: 3rem auto 2rem;
+    }
+
+    #box3 h3{
+        text-align: left;
+        padding-left: 15px;
+        font-size: 18px;
+    }
+
+    #box3 h2{
+        text-align: left;
+        padding-left: 25px;
+        font-size: 23px;
+    }
+
+    #cont_one{
+        border: 1px solid rgb(184, 184, 184);
+        margin: 20px 20px 5px 20px;
+        border-radius: 5px;
+        padding: 10px 0 0 0;
+    }
+
+    #box3 .about{
+        padding: 0 23px;
+        text-align: justify;
+        font-size: 17px;
+        line-height: 33px;
+        margin: 35px 0;
+    }
+
+    #box3 #one_top{
+        text-align: left;
+        padding: 0 20px;
+    }
+
+    #box3 #one_top p{
+        color: hsl(176, 50%, 47%);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #box3 #one_down{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px 30px 30px ;
+        text-align: left;
+        margin-top: -10px;
+    }
+
+    #box3 .fig{
+        font-size: 40px;
+        font-weight: 700;
+        color: rgb(36, 36, 36);
+        padding-right: 5px;
+        padding-top: 20px;
+        margin-left: -15px;
+    }
+
+    #box3 #one_down sup{
+        font-size: 14px;
+        color: rgb(184, 184, 184);
+        font-weight: 400;
+        margin-left: 5px;
+    }
+
+    #box3 #one_down button{
+        padding: 1px 20px;
+        border-radius: 50px;
+        border: 1px solid hsl(176, 50%, 47%);
+        background-color: hsl(176, 50%, 47%);
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 15px;
+        height: 50px;
+        font-weight: bold;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #box3 #one_down button:hover{
+        background-color: hsl(177, 44%, 38%);
+    }
+
+    #cont_one .content{
+        padding:15px 30px 0 30px;
+        text-align: justify;
+        font-size: 15px;
+        line-height: 33px;
+    }
+
+    #cont_one:nth-of-type(3){
+        border: 1px solid rgb(238, 238, 238);
+    }
+
+
+    .modal {
+        width: 40%;
+        height: 30vh;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 2rem 3.2rem 3rem;
+        border-bottom-left-radius: 7rem;
+        backdrop-filter: blur(0.6rem);
+        background-clip: padding-box;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .modal ul{
+        margin: 1.7rem 0 0;
+        padding: 0;
+    }
+
+    .modal li{
+        list-style-type: none;
+        padding-bottom: 2rem;
+        margin-left: 0.8rem;
+    }
+
+    .modal li:hover {
+        transform: translateY(-2px);
+        transition: all .3s ease;
+    }
+
+    .modal a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    .modal-hidden{
+        display: none;
+    }
+}
+
+@media(min-width: 961px) and (max-width: 1024px){
+    .modal {
+        display: none;
+    }
+
+    #top{
+        background-image: url(images/image-hero-desktop.jpg);
+        height: 50vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    #header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 1rem;
+    
+    }
+    
+    .hide-desktop{
+        display: none;
+    }
+
+    #header ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #header ul li{
+        padding-left: 3rem;
+        font-weight: 600;
+        text-decoration: none;
+         
+    }
+
+    #header ul li a{
+        text-decoration: none;
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    #header ul li:hover{
+        transform: translateY(-2px);
+        transition: all .3s ease;
+    }
+
+
+    #container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -5rem;
+    }
+
+
+    #box{
+        background-color:white;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        width: 50%;
+        margin: 0 auto 2rem;
+        padding: 0 2rem 2rem;
+    }
+
+    #container #box .masterkraft{
+        margin-top: -2rem;
+    }
+
+    h1{
+        font-size: 33px;
+    }
+
+    p{
+        font-size: 18px;
+        color: rgb(95, 95, 95);
+        margin-top: -10px;
+    }
+
+    #container #box #buttons_1{
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5rem auto 0;
+    }
+
+    #container #box .btn_1{
+        padding: 5px 2rem;
+        border-radius: 50px;
+        border: 1px solid hsl(176, 50%, 47%);
+        background-color: hsl(176, 50%, 47%);
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    #container #box .btn_1:hover{
+        background-color: hsl(177, 44%, 38%);
+    }
+
+    #container #box .bookmark{
+        width: 50%;
+        border-radius: 50px;
+        box-sizing: border-box;
+        border: 1px solid rgba(245, 245, 245, 0.959);
+        background-color: rgba(245, 245, 245, 0.959);
+        font-size: 1.2rem;
+        color: rgba(71, 71, 71, 0.945);
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 2.5rem;
+        
+    }
+
+    #box2{
+        background-color:white;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        width: 50%;
+        padding:2rem;
+        margin-bottom: 2rem;
+    }
+
+    #figures{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #figures .sup{
+        font-size: 35px;
+        font-weight: 700;
+        color: rgb(36, 36, 36);
+    }
+
+    #figures .sub{
+        font-size: 17px;
+        margin-top: -25px;
+        color: rgb(75, 75, 75);
+    }
+
+
+    #figures .figone{
+        border-right: 1px solid rgb(177, 177, 177);
+        padding-right: 2.5rem;
+    }
+
+    #figures .figtwo{
+        border-right: 1px solid rgb(177, 177, 177);
+        padding-right: 2.5rem;
+    }
+
+
+    #box2 .square {
+          height: 15px;
+          width: 100%;
+          background-color: rgba(235, 235, 235, 0.959);
+          margin-top: 2rem;
+          border-radius: 50px;
+    }
+
+    #box2 .square1{
+          height: 15px;
+          width: 80%;
+          background-color:hsl(176, 50%, 47%);
+          border-radius: 50px;
+    }
+
+    #box3{
+        background-color:white;
+        text-align: center;
+        padding: 2rem;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+
+    #box3 h2{
+        text-align: left;
+        font-size: 23px;
+    }
+
+    #cont_one{
+        border: 1px solid rgb(184, 184, 184);
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        padding: 10px 0 0 0;
+    }
+
+    #box3 .about{
+        text-align: justify;
+        font-size: 18px;
+        line-height: 33px;
+        margin: 35px 0;
+    }
+
+    #box3 #one_top{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    #box3 #one_top p{
+        padding-top: 30px;
+        color: hsl(176, 50%, 47%);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #box3 #one_down{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px 0 30px ;
+    }
+
+    #box3 .fig{
+        font-size: 35px;
+        font-weight: 700;
+        color: rgb(36, 36, 36);
+        padding-right: 5px;
+        padding-top: 20px;
+    }
+
+    #box3 #one_down sup{
+        font-size: 14px;
+        color: rgb(184, 184, 184);
+        font-weight: 400;
+    }
+
+    #box3 #one_down button{
+        padding: 1px 30px;
+        border-radius: 50px;
+        border: 1px solid hsl(176, 50%, 47%);
+        background-color: hsl(176, 50%, 47%);
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 14px;
+        height: 50px;
+        font-weight: 700;
+    }
+
+    #box3 #one_down button:hover{
+        background-color: hsl(177, 44%, 38%);
+    }
+
+    #cont_one .content{
+        padding:30px 30px 0 30px;
+        text-align: justify;
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+    #cont_one:nth-of-type(3){
+        border: 1px solid rgb(238, 238, 238);
+    }
+}
+
+@media(min-width: 1025px) and (max-width: 1281px){
+    .modal {
+        display: none;
+    }
+
+    #top{
+        background-image: url(images/image-hero-desktop.jpg);
+        height: 50vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    #header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 1rem;
+    
+    }
+    
+    .hide-desktop{
+        display: none;
+    }
+
+    #header ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #header ul li{
+        padding-left: 3rem;
+        font-weight: 600;
+        text-decoration: none;
+         
+    }
+
+    #header ul li a{
+        text-decoration: none;
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    #header ul li:hover{
+        transform: translateY(-2px);
+        transition: all .3s ease;
+    }
+
+
+    #container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -5rem;
+    }
+
+
+    #box{
+        background-color:white;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        width: 40%;
+        margin: 0 auto 2rem;
+        padding: 0 2rem 2rem;
+    }
+
+    #container #box .masterkraft{
+        margin-top: -2rem;
+    }
+
+    h1{
+        font-size: 33px;
+    }
+
+    p{
+        font-size: 18px;
+        color: rgb(95, 95, 95);
+        margin-top: -10px;
+    }
+
+    #container #box #buttons_1{
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5rem auto 0;
+    }
+
+    #container #box .btn_1{
+        padding: 5px 2rem;
+        border-radius: 50px;
+        border: 1px solid hsl(176, 50%, 47%);
+        background-color: hsl(176, 50%, 47%);
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    #container #box .btn_1:hover{
+        background-color: hsl(177, 44%, 38%);
+    }
+
+    #container #box .bookmark{
+        width: 50%;
+        border-radius: 50px;
+        box-sizing: border-box;
+        border: 1px solid rgba(245, 245, 245, 0.959);
+        background-color: rgba(245, 245, 245, 0.959);
+        font-size: 1.2rem;
+        color: rgba(71, 71, 71, 0.945);
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 2.5rem;
+        
+    }
+
+    #box2{
+        background-color:white;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        width: 40%;
+        padding:2rem;
+        margin-bottom: 2rem;
+    }
+
+    #figures{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #figures .sup{
+        font-size: 35px;
+        font-weight: 700;
+        color: rgb(36, 36, 36);
+    }
+
+    #figures .sub{
+        font-size: 17px;
+        margin-top: -25px;
+        color: rgb(75, 75, 75);
+    }
+
+
+    #figures .figone{
+        border-right: 1px solid rgb(177, 177, 177);
+        padding-right: 1.3rem;
+    }
+
+    #figures .figtwo{
+        border-right: 1px solid rgb(177, 177, 177);
+        padding-right: 1.5rem;
+    }
+
+
+    #box2 .square {
+          height: 15px;
+          width: 100%;
+          background-color: rgba(235, 235, 235, 0.959);
+          margin-top: 2rem;
+          border-radius: 50px;
+    }
+
+    #box2 .square1{
+          height: 15px;
+          width: 80%;
+          background-color:hsl(176, 50%, 47%);
+          border-radius: 50px;
+    }
+
+    #box3{
+        background-color:white;
+        text-align: center;
+        padding: 2rem;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        width: 40%;
+        margin-bottom: 2rem;
+    }
+
+    #box3 h2{
+        text-align: left;
+        font-size: 23px;
+    }
+
+    #cont_one{
+        border: 1px solid rgb(184, 184, 184);
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        padding: 10px 0 0 0;
+    }
+
+    #box3 .about{
+        text-align: justify;
+        font-size: 18px;
+        line-height: 33px;
+        margin: 35px 0;
+    }
+
+    #box3 #one_top{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    #box3 #one_top p{
+        padding-top: 30px;
+        color: hsl(176, 50%, 47%);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #box3 #one_down{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px 0 30px ;
+    }
+
+    #box3 .fig{
+        font-size: 35px;
+        font-weight: 700;
+        color: rgb(36, 36, 36);
+        padding-right: 5px;
+        padding-top: 20px;
+    }
+
+    #box3 #one_down sup{
+        font-size: 14px;
+        color: rgb(184, 184, 184);
+        font-weight: 400;
+    }
+
+    #box3 #one_down button{
+        padding: 1px 30px;
+        border-radius: 50px;
+        border: 1px solid hsl(176, 50%, 47%);
+        background-color: hsl(176, 50%, 47%);
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 14px;
+        height: 50px;
+        font-weight: 700;
+    }
+
+    #box3 #one_down button:hover{
+        background-color: hsl(177, 44%, 38%);
+    }
+
+    #cont_one .content{
+        padding:30px 30px 0 30px;
+        text-align: justify;
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+    #cont_one:nth-of-type(3){
+        border: 1px solid rgb(238, 238, 238);
+    }
+}
+
+@media(min-width: 1281px){
+    .modal {
+        display: none;
+    }
+
+    #top{
+        background-image: url(images/image-hero-desktop.jpg);
+        height: 50vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    #header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 1rem;
+    
+    }
+    
+    .hide-desktop{
+        display: none;
+    }
+
+    #header ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #header ul li{
+        padding-left: 3rem;
+        font-weight: 600;
+        text-decoration: none;
+         
+    }
+
+    #header ul li a{
+        text-decoration: none;
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    #header ul li:hover{
+        transform: translateY(-2px);
+        transition: all .3s ease;
+    }
+
+
+    #container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -5rem;
+    }
+
+
+    #box{
+        background-color:white;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        width: 40%;
+        margin: 0 auto 2rem;
+        padding: 0 2rem 2rem;
+    }
+
+    #container #box .masterkraft{
+        margin-top: -2rem;
+    }
+
+    h1{
+        font-size: 33px;
+    }
+
+    p{
+        font-size: 18px;
+        color: rgb(95, 95, 95);
+        margin-top: -10px;
+    }
+
+    #container #box #buttons_1{
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5rem auto 0;
+    }
+
+    #container #box .btn_1{
+        padding: 5px 2rem;
+        border-radius: 50px;
+        border: 1px solid hsl(176, 50%, 47%);
+        background-color: hsl(176, 50%, 47%);
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    #container #box .btn_1:hover{
+        background-color: hsl(177, 44%, 38%);
+    }
+
+    #container #box .bookmark{
+        width: 50%;
+        border-radius: 50px;
+        box-sizing: border-box;
+        border: 1px solid rgba(245, 245, 245, 0.959);
+        background-color: rgba(245, 245, 245, 0.959);
+        font-size: 1.2rem;
+        color: rgba(71, 71, 71, 0.945);
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 2.5rem;
+        
+    }
+
+    #box2{
+        background-color:white;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        width: 40%;
+        padding:2rem;
+        margin-bottom: 2rem;
+    }
+
+    #figures{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #figures .sup{
+        font-size: 35px;
+        font-weight: 700;
+        color: rgb(36, 36, 36);
+    }
+
+    #figures .sub{
+        font-size: 17px;
+        margin-top: -25px;
+        color: rgb(75, 75, 75);
+    }
+
+
+    #figures .figone{
+        border-right: 1px solid rgb(177, 177, 177);
+        padding-right: 2.9rem;
+    }
+
+    #figures .figtwo{
+        border-right: 1px solid rgb(177, 177, 177);
+        padding-right: 2.8rem;
+    }
+
+
+    #box2 .square {
+          height: 15px;
+          width: 100%;
+          background-color: rgba(235, 235, 235, 0.959);
+          margin-top: 2rem;
+          border-radius: 50px;
+    }
+
+    #box2 .square1{
+          height: 15px;
+          width: 80%;
+          background-color:hsl(176, 50%, 47%);
+          border-radius: 50px;
+    }
+
+    #box3{
+        background-color:white;
+        text-align: center;
+        padding: 2rem;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 219, 219);
+        width: 40%;
+        margin-bottom: 2rem;
+    }
+
+    #box3 h2{
+        text-align: left;
+        font-size: 23px;
+    }
+
+    #cont_one{
+        border: 1px solid rgb(184, 184, 184);
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        padding: 10px 0 0 0;
+    }
+
+    #box3 .about{
+        text-align: justify;
+        font-size: 18px;
+        line-height: 33px;
+        margin: 35px 0;
+    }
+
+    #box3 #one_top{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    #box3 #one_top p{
+        padding-top: 30px;
+        color: hsl(176, 50%, 47%);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #box3 #one_down{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px 0 30px ;
+    }
+
+    #box3 .fig{
+        font-size: 35px;
+        font-weight: 700;
+        color: rgb(36, 36, 36);
+        padding-right: 5px;
+        padding-top: 20px;
+    }
+
+    #box3 #one_down sup{
+        font-size: 14px;
+        color: rgb(184, 184, 184);
+        font-weight: 400;
+    }
+
+    #box3 #one_down button{
+        padding: 1px 30px;
+        border-radius: 50px;
+        border: 1px solid hsl(176, 50%, 47%);
+        background-color: hsl(176, 50%, 47%);
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 14px;
+        height: 50px;
+        font-weight: 700;
+    }
+
+    #box3 #one_down button:hover{
+        background-color: hsl(177, 44%, 38%);
+    }
+
+    #cont_one .content{
+        padding:30px 30px 0 30px;
+        text-align: justify;
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+    #cont_one:nth-of-type(3){
+        border: 1px solid rgb(238, 238, 238);
+    }
+}
